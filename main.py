@@ -51,7 +51,7 @@ plt.show()
 sd.play(waveOut, fsaudio)
 status = sd.wait()
 '''
-wavfile.write("waveOut.wav", fsaudio, waveOut)
+wavfile.write("final_audios/waveOut.wav", fsaudio, waveOut)
 
 # --------------------------Ex 2 i 3 ----------------------------------------
 # Quantization bands with no overlapping and rectangular window
@@ -75,7 +75,7 @@ plt.show()
 sd.play(waveOut, fsaudio)
 status = sd.wait()
 '''
-wavfile.write("waveOut_quantized.wav", fsaudio, waveOut)
+wavfile.write("final_audios/waveOut_quantized.wav", fsaudio, waveOut)
 
 
 # ------------------------ Ex 4 ----------------------------
@@ -103,7 +103,7 @@ plt.show()
 sd.play(waveOut, fsaudio)
 status = sd.wait()
 '''
-wavfile.write("waveOut_Overlap.wav", fsaudio, waveOut)
+wavfile.write("final_audios/waveOut_Overlap.wav", fsaudio, waveOut)
 
 
 # ------------------------- Ex 5 ------------------------------
@@ -129,4 +129,4 @@ plt.xlabel('Segons')
 plt.show()
 sd.play(waveOut, fsaudio)
 status = sd.wait()
-wavfile.write("waveOut_variable.wav", fsaudio, waveOut)
+wavfile.write("final_audios/waveOut_variable.wav", fsaudio, waveOut)
