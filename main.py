@@ -34,7 +34,7 @@ n_bits = 8
 
 
 # -------------------------Ex 1 ---------------------------------------------
-# Plot a part of the signal in time, magnitud and phase
+# Plot a part of the signal in time, magnitude and phase
 doQuantizationByBands = 0
 waveOut = transform(audio, nBands, n_bits, winL, doQuantizationByBands, time)
 
@@ -79,7 +79,7 @@ wavfile.write("final_audios/waveOut_quantized.wav", fsaudio, waveOut)
 
 
 # ------------------------ Ex 4 ----------------------------
-# Quantization bands with oberlapping and a hamming window
+# Quantization bands with overlapping and a hamming window
 window = np.hanning(winL)
 overlap = 0.75
 waveOut, _ = transform_overlap(audio, nBands, n_bits, winL, overlap, window, doQuantizationByBands, False)
