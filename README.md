@@ -28,7 +28,7 @@ At this point we will recover the signal. So it will increase the data and apply
 
 ![Transform Block](/Images/TransformBlock.png)
 
-This process is done in the **function** ``transform`` of the ``block_transform`` **class**.
+This process is done in the *function* ``transform`` of the ``block_transform`` *class*.
 
 ### Ex 2 i 3
 The program has been improved and now does the Quantization Process.
@@ -39,7 +39,7 @@ With the following metrics for the bands:
 
 ![Quantization Bands](/Images/QuantizationBnads.PNG)
 
-This process is done in the **function** ``quantization`` of the ``quantization`` **class**.
+This process is done in the *function* ``quantization`` of the ``quantization`` *class*.
 
 ### Ex 4
 Now the final result is more accurate because we overlap the frames with specific windows, in my case with the Hamming window.
@@ -55,7 +55,7 @@ Max(fft) > max_amplitude/energyThreshold
 ![Variable Quantization](/Images/VariableQuantization.PNG)
 
 
-This process is done in the **function** ``variable_quantization`` of the ``quantization`` **class**.
+This process is done in the *function* ``variable_quantization`` of the ``quantization`` *class*.
 
 ## Usage
 To run the project you just have to open your terminal, go to the project directory (DFTCoding), and write the following command:
